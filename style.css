@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(54, 54, 54);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: black;
+    height: 700px;
+    position: relative;
+    margin-top: 250px;
+    border-radius: 35px;
+}
+
+.cbl{
+    display: flex;
+    width: 510px;
+    height: 60px;
+    margin-top: -40px;
+    border-radius: 35px 35px 0px 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.b1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 460px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(0, 0, 0);
+    border:1px;    
+}
+
+.b1:hover{
+    background: rgb(110, 110, 110);
+}
+
+.b2{
+    display:block;
+    position:relative;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    align-items: center;
+    background-color:rgb(168, 168, 168);
+    border: 1px;
+    margin-left:-475px;
+}
+
+.b2:hover{
+    background: rgb(110, 110, 110);
+}
+
+.imagem1{
+    display: inline-block;
+    position: relative;
+    margin-top: 70px;
+}
+
+img{
+    display: flex;
+    position: relative;
+    border-radius:70px; 
+}
+
+p{
+    display: flex;
+    font-size: 25px;
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 450px;  
+    
+}
+
+.b3{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    background-color:rgb(54, 54, 54);
+    border-radius: 10px;
+    border:1px;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.b3:hover{
+    background: rgb(110, 110, 110);
+}
+
+.b4{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    background-color:rgb(54, 54, 54);
+    border-radius: 10px;
+    border:1px;
+    font-size: 15px;
+    color:white;
+    
+}
+
+.b4:hover{
+    background: rgb(110, 110, 110);
+}
+
+.b5{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    background-color:rgb(54, 54, 54);
+    border-radius: 10px;
+    border:1px;
+    font-size: 15px;
+    color:white;
+}
+
+.b5:hover{
+    background: rgb(110, 110, 110);
+}
+
+.b6{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+    background-color:rgb(54, 54, 54);
+    border-radius: 10px;
+    border:1px;
+    font-size: 15px;
+    color:white;
+}
+
+.b6:hover{
+    background: rgb(110, 110, 110);
+}
