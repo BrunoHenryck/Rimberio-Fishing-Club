@@ -18,6 +18,15 @@ body{
     position: relative;
     margin-top: 250px;
     border-radius: 35px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(15px);
+    transition: 0.9s;
+}
+
+.container.mostrar{
+    opacity: 1;
+    transform: translateY(10px);
 }
 
 .cbl{
@@ -27,6 +36,10 @@ body{
     margin-top: -40px;
     border-radius: 35px 35px 0px 0px;
     background-color: rgb(0, 0, 0);
+}
+
+button:active{
+    transform: scale(0.97);
 }
 
 .b1{
@@ -74,7 +87,7 @@ img{
     border-radius:70px; 
 }
 
-p{
+.titulo{
     display: flex;
     font-size: 25px;
     color: white;
@@ -153,3 +166,29 @@ p{
 .b6:hover{
     background: rgb(110, 110, 110);
 }
+
+.menu-lateral{
+    position: absolute;
+    top:0;
+    left: -270px; /* Começa escondido*/
+    width: 80px;
+    height: 15%;
+    background: #222;
+    color: white;
+    padding: 20px;
+    transition: left 0.6s;
+    z-index: 999;
+    border-radius: 20px;
+}
+
+
+
+/* quando ativa */
+.menu-lateral.ativo{
+    left: 0;
+}
+
+p{
+    font-size: 15px;
+}
+

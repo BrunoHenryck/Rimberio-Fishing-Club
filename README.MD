@@ -100,5 +100,6 @@ Projeto criado com foco em aprendizado e portfólio front-end.
 
 ⭐ Se este projeto te ajudou, considere deixar uma estrela no repositório!
 
-## Mais atualizações de acordo com o tempo
-Esse projeto ainda não está finalizado, e ainda tem muita coisa pela frente!👨‍💻
+🔄 Atualizações futuras
+
+Este projeto continua em desenvolvimento e novas funcionalidades serão adicionadas ao longo do tempo.
