@@ -8,6 +8,10 @@ document.querySelector(".b5").addEventListener("click", () => {
     window.open("https://maps.google.com", "_blank");
 });
 
+document.querySelector(".b6").addEventListener("click", () => {
+    window.open("informacoes.html", "_blank");
+});
+
 window.onload = () => {
     document.querySelector(".container").classList.add("mostrar");
 };

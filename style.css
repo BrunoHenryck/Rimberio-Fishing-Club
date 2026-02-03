@@ -110,7 +110,10 @@ img{
     border-radius: 10px;
     border:1px;
     font-size: 15px;
-    color: white;
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
     
 }
 
@@ -128,7 +131,7 @@ img{
     border:1px;
     font-size: 15px;
     color:white;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .b4:hover{
@@ -145,6 +148,7 @@ img{
     border:1px;
     font-size: 15px;
     color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .b5:hover{
@@ -161,6 +165,7 @@ img{
     border:1px;
     font-size: 15px;
     color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .b6:hover{
@@ -192,3 +197,9 @@ p{
     font-size: 15px;
 }
 
+.texto{
+    display: flex;
+    color: white;
+    padding: 10px;
+    
+}
