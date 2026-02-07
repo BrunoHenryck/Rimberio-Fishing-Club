@@ -4,6 +4,10 @@ Este repositório contém o código-fonte de uma **página de links estilo Linkt
 
 A aplicação é **simples, leve e responsiva**, ideal para uso em redes sociais, QR Codes ou como página inicial de divulgação.
 
+## 🔗Link para acesso
+
+https://brunohenryck.github.io/Rimberio-Fishing-Club/
+
 ---
 
 ## 📌 Funcionalidades
